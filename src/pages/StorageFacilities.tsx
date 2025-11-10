@@ -14,7 +14,7 @@ const StorageFacilities = () => {
       capacity: "350 tons",
       available: "200 tons",
       temperature: "12-18°C",
-      status: "available",
+      status: "Available",
       distance: "3.1 km"
     }
   ];
@@ -26,7 +26,7 @@ const StorageFacilities = () => {
       stored: "Oct 20, 2024",
       duration: "3 weeks",
       status: "Fresh",
-      expires: "Nov 10, 2024"
+      expires: "Nov 15, 2025"
     }
   ];
 
