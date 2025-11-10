@@ -48,7 +48,7 @@ const Auth = () => {
         }
 
         toast({
-          title: "Welcome back! 👋",
+          title: "Welcome back!",
           description: "Successfully logged in",
         });
 
