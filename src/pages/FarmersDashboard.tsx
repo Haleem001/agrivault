@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link, useNavigate } from "react-router-dom";
-import { 
-  ArrowLeft, 
-  Package, 
-  ShoppingCart, 
+import {
+  ArrowLeft,
+  Package,
+  ShoppingCart,
   User,
   Plus,
   Smile,
@@ -13,6 +13,7 @@ import {
 } from "lucide-react";
 import { supabase } from "@/integrations/dummy/client";
 import { useToast } from "@/hooks/use-toast";
+import logo from "/a-logo.png";
 
 const FarmersDashboard = () => {
   const [userName, setUserName] = useState("Farmer");
@@ -76,9 +77,7 @@ const FarmersDashboard = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-10 h-10 rounded-lg" />
               <span className="text-2xl font-bold text-foreground">Agrivault</span>
             </Link>
             

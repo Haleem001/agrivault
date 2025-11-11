@@ -14,6 +14,7 @@ import maizeImg from "@/assets/maize.jpg";
 import milletImg from "@/assets/millet.jpeg";
 import riceImg from "@/assets/rice.webp";
 import sorghumImg from "@/assets/sorghum.webp";
+import logo from "/a-logo.png";
 
 const Marketplace = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -219,9 +220,7 @@ const Marketplace = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-10 h-10 rounded-lg" />
               <span className="text-2xl font-bold text-foreground">Agrivault</span>
             </Link>
             

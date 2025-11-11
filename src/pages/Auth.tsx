@@ -8,6 +8,7 @@ import { ArrowLeft, Phone, Lock, Mail, ChevronDown, ChevronUp } from "lucide-rea
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/dummy/client";
 import type { Database } from "@/integrations/supabase/types";
+import logo from "/a-logo.png";
 
 type Profile = Database['public']['Tables']['profiles']['Row'];
 
@@ -112,9 +113,7 @@ const Auth = () => {
 
         <Card className="p-6 md:p-8 shadow-xl">
           <div className="text-center mb-6">
-            <div className="w-16 h-16 mx-auto mb-4 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-white font-bold text-2xl">A</span>
-            </div>
+            <img src={logo} alt="Agrivault Logo" className="w-16 h-16 mx-auto mb-4 rounded-lg" />
             <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
               {isLogin ? "Welcome Back! 👋" : "Join Agrivault 🌾"}
             </h1>

@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { ArrowLeft, Truck, Shield, CreditCard, MapPin, Phone, User, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import logo from "/a-logo.png";
 
 interface CheckoutItem {
   id: number;
@@ -118,9 +119,7 @@ const Checkout = () => {
             </Link>
             
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-sm">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-8 h-8 rounded-lg" />
               <span className="font-bold">Agrivault Checkout</span>
             </div>
           </div>
