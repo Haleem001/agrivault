@@ -1,3 +1,5 @@
+import logo from "/a-logo.png";
+
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border py-12">
@@ -5,9 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-8 h-8 rounded-lg" />
               <span className="text-xl font-bold text-foreground">Agrivault</span>
             </div>
             <p className="text-muted-foreground text-sm">

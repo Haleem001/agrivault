@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowLeft, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "/a-logo.png";
 
 type MenuState = 'main' | 'check-storage' | 'list-produce' | 'view-orders' | 'subscription';
 
@@ -156,9 +157,7 @@ const UssdSimulation = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-10 h-10 rounded-lg" />
               <span className="text-2xl font-bold text-foreground">Agrivault</span>
             </Link>
             

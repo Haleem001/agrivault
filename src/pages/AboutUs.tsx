@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import unhappyFarmer from "@/assets/unhappy-farmer-spoiled.jpg";
 import happyFarmer from "@/assets/happy-farmer-success.jpg";
 import handshakeDeal from "@/assets/handshake-deal.jpg";
+import logo from "/a-logo.png";
 
 const AboutUs = () => {
   return (
@@ -13,9 +14,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-xl">A</span>
-              </div>
+              <img src={logo} alt="Agrivault Logo" className="w-10 h-10 rounded-lg" />
               <span className="text-2xl font-bold text-foreground">Agrivault</span>
             </Link>
             
@@ -37,7 +36,7 @@ const AboutUs = () => {
               About Agrivault
             </h1>
             <p className="text-xl text-muted-foreground">
-              Empowering farmers and transforming agricultural commerce across Africa
+              An e-commerce marketplace for Nigerian smallholder farmers and agro buyers
             </p>
           </div>
 
@@ -72,11 +71,12 @@ const AboutUs = () => {
           <div className="max-w-4xl mx-auto mb-20 text-center">
             <h2 className="text-4xl font-bold text-foreground mb-6">What We Do</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Agrivault is a revolutionary smart farm storage and B2B platform that bridges the gap between farmers and buyers. 
-              We provide state-of-the-art storage facilities with climate control and real-time monitoring, ensuring your produce 
-              maintains peak quality. Our digital marketplace connects you directly with verified buyers, eliminating middlemen 
-              and maximizing your profits. From harvest to sale, we handle logistics, quality assurance, and secure transactions, 
-              giving you complete control and transparency over your agricultural business.
+              Agrivault is an e-commerce marketplace designed for Nigerian smallholder farmers and agro buyers
+              to address challenges of limited market access, unfair pricing, and post-harvest losses.
+              The platform connects farmers directly with verified buyers and trusted storage providers,
+              combining digital trade with integrated storage and logistics services. Through web, mobile, and
+              USSD/SMS access, it enables transparent pricing, efficient transactions, and offline inclusivity.
+              The MVP features marketplace listings, seller onboarding, transaction tracking, and optional storage.
             </p>
           </div>
 
@@ -89,8 +89,8 @@ const AboutUs = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To empower African farmers with cutting-edge storage technology and direct market access, 
-                reducing post-harvest losses and increasing agricultural income across the continent.
+                To empower Nigerian smallholder farmers with direct market access and fair pricing,
+                reducing post-harvest losses and increasing agricultural income through digital innovation.
               </p>
             </div>
 
@@ -101,8 +101,8 @@ const AboutUs = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">What We Offer</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Smart climate-controlled storage, real-time inventory tracking, verified buyer network, 
-                secure payment systems, logistics support, quality assurance, and 24/7 technical assistance.
+                Digital marketplace listings, direct buyer connections, trusted storage providers,
+                transaction tracking, USSD/SMS accessibility, transparent pricing, and integrated logistics.
               </p>
             </div>
 
@@ -113,8 +113,8 @@ const AboutUs = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To become Africa's leading agricultural technology platform, transforming how farmers store, 
-                sell, and scale their produce while building a sustainable and prosperous farming ecosystem.
+                To become Nigeria's leading agricultural e-commerce platform, transforming how farmers
+                access markets and sell their produce while building a sustainable and inclusive farming ecosystem.
               </p>
             </div>
 
@@ -125,8 +125,8 @@ const AboutUs = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Promise</h3>
               <p className="text-muted-foreground leading-relaxed">
-                We promise transparency in every transaction, quality preservation of your produce, 
-                fair pricing, timely payments, and unwavering support as you grow your agricultural business.
+                We promise transparent pricing, direct buyer connections, reduced post-harvest losses,
+                fair market access, and inclusive technology that works for all farmers, regardless of connectivity.
               </p>
             </div>
           </div>
