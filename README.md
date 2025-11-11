@@ -50,10 +50,10 @@ AgriVault is a comprehensive e-commerce marketplace designed specifically for Ni
 
 ```bash
 # Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/Haleem001/agrivault.git
 
 # Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd agrivault
 
 # Install the necessary dependencies.
 npm i
@@ -82,7 +82,7 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ### Backend & Database
 - **Supabase** - Backend-as-a-Service providing PostgreSQL, Auth, and Real-time
-- **Dummy Client** - Local development fallback with mock data
+- **Dummy Data Client** - Local development fallback with mock data
 
 ### State Management & Data Fetching
 - **TanStack Query 5.83.0** - Server state management and caching
