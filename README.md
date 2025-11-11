@@ -214,14 +214,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, please contact:
-- Email: support@agrivault.app
-- Phone: +234 XXX XXX XXXX
-- Website: [agrivault.app](https://agrivault.app)
 
----
 
 <div align="center">
-  <p>Made with ❤️ for Nigerian Farmers</p>
-  <p>© 2024 AgriVault. All rights reserved.</p>
+  <p>Made with ❤️ </p>
+  <p>© 2025 AgriVault. All rights reserved.</p>
 </div>
