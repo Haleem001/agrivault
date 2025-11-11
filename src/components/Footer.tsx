@@ -11,7 +11,7 @@ const Footer = () => {
               <span className="text-xl font-bold text-foreground">Agrivault</span>
             </div>
             <p className="text-muted-foreground text-sm">
-              Smart storage and B2B platform for modern agriculture.
+              Digital Agro Marketplace and Smart Storage for Smallholder Farmers
             </p>
           </div>
           
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Agrivault. All rights reserved.
+          &copy; {new Date().getFullYear()} Agrivault. All rights reserved.
         </div>
       </div>
     </footer>
