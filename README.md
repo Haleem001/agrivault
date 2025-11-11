@@ -1,7 +1,7 @@
 # AgriVault - Agro Marketplace & Smart Storage Platform
 
 <div align="center">
-  <img src="public/placeholder.svg" alt="AgriVault Logo" width="120" height="120">
+  <img src="public/a-logo.png" alt="AgriVault Logo" width="120" height="120">
   
   <h3>Connecting Nigerian Farmers with Buyers Through Smart Storage Solutions</h3>
   
