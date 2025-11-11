@@ -20,6 +20,7 @@ import Subscription from "./pages/Subscription";
 import StorageFacilities from "./pages/StorageFacilities";
 import UssdSimulation from "./pages/UssdSimulation";
 import Checkout from "./pages/Checkout";
+import PaymentDetails from "./pages/PaymentDetails";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/storage-facilities" element={<StorageFacilities />} />
           <Route path="/ussd-simulation" element={<UssdSimulation />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/payment" element={<PaymentDetails />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
